@@ -2,10 +2,17 @@
     margin:0;
     padding:0;
     font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
 }
 .header{
     border-bottom: 2px solid black;
     padding: 40px;
+}
+
+.video-container{
+    height: 400px;
 }
 
 .footer{
@@ -116,6 +123,10 @@ a {
     background: url(img/2.jpeg);
     background-size: cover;
     background-position: center;
+    text-align: center;
+    padding: 200px 30px;
+    box-sizing: border-box;
+    font-size: 40px;
 }
 .end{
     height: 500px;
