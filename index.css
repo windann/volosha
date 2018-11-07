@@ -1,0 +1,172 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Fjalla One', sans-serif;
+}
+.header{
+    border-bottom: 2px solid black;
+    padding: 40px;
+}
+
+.footer{
+    border-top: 2px solid black;
+    padding: 40px;
+}
+
+.footer-logo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.menu-nav{
+    width: 50%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-item{
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+.building{
+    height: 500px;
+    background: url(img/1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.concert-block{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.c {
+    margin: 30px 0;
+}
+
+.c_1{
+    background: url(img/1_c.jpeg);
+    flex-grow: 2;
+    background-size: cover;
+    background-position: center;
+}
+
+.c_2{
+    background: url(img/2_c.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    margin: 0;
+    margin-top: 30px;
+
+}
+
+.c_4{
+    background: url(img/4_c.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+.c_3{
+    background: url(img/3_c.jpeg);
+    flex-grow: 3;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.galf-of-finland{
+    height: 500px;
+    background: url(img/2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.end{
+    height: 500px;
+    background: url(img/3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.t_1{
+    background: url(img/2_t.jpeg);
+    flex-grow: 2;
+    background-size: cover;
+    background-position: center;
+}
+
+.t_2{
+    background: url(img/1_t.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    margin: 0;
+    margin-top: 30px;
+
+}
+
+.t_4{
+    background: url(img/4_t.jpeg);
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+.t_3{
+    background: url(img/3_t.jpeg);
+    flex-grow: 3;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.travel-block{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
