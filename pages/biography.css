@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+}
+
+.biography{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 730px;
+}
+
+.photo{
+    background: url(../img/b.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 50%;
+}
+
+.text{
+    width: 50%;
+    padding: 30px;
+}
