@@ -181,3 +181,37 @@ a {
     height: 500px;
 }
 
+.video{
+    height: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    color: white;
+    font-weight: 400; 
+}
+
+.biography{
+    display: flex;
+    flex-direction: row;
+    height: 730px;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 500px;
+}
+
+.biography-photo{
+    background: url(img/b.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.biography-text{
+    width: 50%;
+    padding: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    font-size: 30px;
+}
